@@ -1,0 +1,105 @@
+#get{
+   /* margin-left: 350px;*/
+   margin-right : -300px;
+   margin-left : 120px;
+}
+#img{
+    margin-top: 180px;
+    align-self: center;
+    height: 50vh;
+    animation: animation 2s alternate linear infinite ;
+}
+@keyframes animation{
+    from{
+        position : relative;
+        top: -10px;
+    }
+    to{
+        position: relative;
+        top: 25px;
+    }
+}
+#get2{
+    color: white;
+    margin-left: 400px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.playlogo{
+    margin-left: -450px;
+}
+#watch{
+    margin-bottom: 5px;
+}
+.bgRow{
+    background-color: rgb(163, 9, 9);
+}
+
+
+#foot1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/00/87/0b/00870b4eeff8fff949e3cbd7c6fecbad.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+    
+.icon1{
+    margin-top: -50px;
+    
+}
+.details{
+        background-color: whitesmoke; 
+        border: 1px rgb(94, 94, 94);
+        padding: 50px 30px;
+        margin: -100px 30px 0 30px;
+        transition: all ease-in-out 0.3s;
+        position: relative;
+        text-align: center;
+        border-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        box-shadow: 0px 0 25px rgba(19, 2, 2, 0.1);
+}
+#i1{
+    height: 80vh;
+    filter: brightness(50%);
+}
+.testimonial-section .testimonial-content {
+    padding: 0 30px;
+    border-radius: 10px;
+}
+@media (max-width:576px){
+    #i1{
+        height: 75vh;
+    }
+}
+.testimonial-section img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-section .stars {
+    color: gold;
+}
+.background{
+    background-color: whitesmoke;
+    border: 1px rgb(94, 94, 94);
+    padding: 50px 30px;
+    margin: -100px 30px 0 30px;
+    transition: all ease-in-out 0.3s;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0px 0 25px rgba(19, 2, 2, 0.1);
+
+}
